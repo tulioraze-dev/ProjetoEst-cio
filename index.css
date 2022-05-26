@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(white, #4ac119);
     width: auto;
+    padding: 3em 0;
 }
 
 /* ---> CABEÇALHO <--- */
@@ -29,7 +30,8 @@ body {
 .menu a {
     color: white;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
 
 .menu a:hover {
     font-size: 22px;
@@ -39,11 +41,21 @@ body {
 
 /* ---> Imagem da Nutri <--- */
 #nutricionista {
-    padding-left: 5%;
-    text-align: justify;
+	padding: 3em 0;
+	width: auto;
+    text-align: center;
 }
 
 .imagemNutricionista {
-    padding: 15px;
+    max-width: 100%;
+    height: auto;
     border-radius: 15%;
+    box-shadow: 10px 10px 10px 0 #2c2c2c;
+    margin: 0 20px 10px 0px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
 }
