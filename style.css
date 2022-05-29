@@ -54,8 +54,19 @@ body {
     margin: 0 20px 10px 0px;
 }
 
-p {
+#informacoes {
+    padding: 30%;
+}
+
+
+/* -------> RODAPÉ <------------- */
+
+footer {
     text-align: center;
-    color: white;
-    font-size: 40px;
+}
+
+#logoRodape {
+    width: 6%;
+    border-radius: 100%;
+    padding: 2%;
 }
