@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(white, #4ac119);
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+header {
+    text-align: center;
+}
+
+.logoCabecalho {
+    max-width: 20%;
+    border-radius: 100%;
+}
+
+.opcoesMenu {
+    display: inline;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.opcoesMenu a {
+    text-decoration: none;
+}
+
+.imagemAlimentos {
+    max-width: 250px;
+}
