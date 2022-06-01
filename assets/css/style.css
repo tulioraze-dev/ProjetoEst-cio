@@ -1,11 +1,8 @@
-html {
-    height: 100%;
-}
-
 body {
     background-image: linear-gradient(white, #4ac119);
     background-repeat: no-repeat;
     background-attachment: local;
+
 }
 header {
     text-align: center;
@@ -25,8 +22,40 @@ header {
 
 .opcoesMenu a {
     text-decoration: none;
+    color: white;
+}
+.imc {
+    align-items: center;
+}
+.imagemAlimentos {
+    max-width: 50%;
+    float: left;
+    margin-left: 7px;
+    margin-right: 5px;
+    border-radius: 8%;
 }
 
-.imagemAlimentos {
-    max-width: 250px;
+.textoImc {
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #3d4049;
+    display: block;
+    line-height: 110%;
+}
+
+h4 {
+    font-size: 18px;
+    color: #3d4049;
+    display: block;
+}
+
+p {
+    margin: 1em 0px;
+}
+
+.classImc {
+    text-align: center;
 }
