@@ -1,9 +1,19 @@
+
+html{
+    width: auto;
+}
+
 body {
+    padding-right: 15px;
+    padding-left: 15px;
     background-image: linear-gradient(white, #4ac119);
     background-repeat: no-repeat;
     background-attachment: local;
-
+    max-width: 940px;
+    margin: 0 auto;
 }
+
+/* CABEÇALHO */
 header {
     text-align: center;
 }
@@ -17,7 +27,7 @@ header {
     display: inline;
     padding-right: 10px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .opcoesMenu a {
@@ -25,10 +35,10 @@ header {
     color: white;
 }
 
+
+/* CONTEÚDO DA PÁGINA */
 main {
     position: relative;
-    max-width: 1320%;
-    justify-content: space-between;
 }
 
 .imagemAlimentos {
@@ -39,12 +49,10 @@ main {
 }
 
 .imagemAlimentos:hover {
-    max-width: 52%;
+    max-width: 51%;
 }
 
 .sobreImc {
-    padding-right: 10px;
-    width: 100%;
     height: auto;
     justify-content: center;
     text-align: center;
@@ -59,11 +67,87 @@ main {
     font-size: 24px;
 }
 
-.niveis {
+.niveisImc {
     justify-items: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 .imagemImc {
     float: right;
+    border-radius: 10%;
+}
+
+/* FOOTER */
+.rodaPe {
+    text-align: center;
+    margin-top: 50px;
+    bottom: 1px;
+}
+
+.logoFooter {
+    max-width: 80px;
+    border-radius: 100%;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+.rodaPe p {
+    margin-bottom: 15px;
+}
+
+/* SEU IMC CSS */
+.formulario {
+    margin-top: 30px;
+}
+.formulario h1 {
+    text-align: center;
+    margin-left: 10px;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.gif{
+    float: right;
+    border-radius: 10%;
+    width: auto;
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 3px solid #000000;
+	padding: 8px 15px;
+}
+
+
+.enviar {
+    margin-top: 15px;
+    border-radius: 10%;
 }

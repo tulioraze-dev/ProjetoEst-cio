@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Site Nutricionista - Seu IMC</title>
+    <link href="/assets/css/normalize.css" rel="stylesheet" />
+    <link href="/assets/css/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<script src="/index.js"></script>
+
+<body>
+    <header>
+        <img class="logoCabecalho" src="/assets/img/logoSite.jpg" alt="LogoSiteNutri">
+        <nav>
+            <ul>
+                <li class="opcoesMenu"><a href="/index.html">SOBRE</a></li>
+                <li class="opcoesMenu"><a href="/seuImc.html">SEU IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="formulario">
+            <h1>Preencha o formulario e descubra seu nivel de IMC</h1>
+            <form>
+                <label for="nomeSobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Digite aqui seu Nome e sobrenome">
+
+                <label for="altura">Altura</label>
+                <input type="number" step="0.01" id="altura" class="input-padrao" required>
+
+                <label for="peso">Peso</label>
+                <input type="number" onblur="validaPeso()" id="peso" class="input-padrao" required>
+
+                <button class="enviar" onclick="imc()">Descubra seu imc</button>
+            </form>
+            <img class="gif" src="/assets/img/obesidade-mitos.gif" alt="">
+            <table>
+				<tr>
+					<td>-</td>
+					<td>Nivel IMC</td>
+				</tr>
+				<tr>
+					<td> < 16</td>
+					<td>Magreza Grave</td>
+				</tr>
+				<tr>
+					<td>16 ~ 17 </td>
+					<td>Magreza moderada</td>
+				</tr>
+				<tr>
+					<td>17 ~ 18,5</td>
+					<td>Magreza leve</td>
+				</tr>
+                <tr>
+                    <td>18,5 ~ 25</td>
+                    <td>Saudável</td>
+                </tr>
+                <tr>
+                    <td>25 ~ 30</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>30 ~ 35</td>
+                    <td>Obesidade I</td>
+                </tr>
+                <tr>
+                    <td>35 ~ 40</td>
+                    <td>Obesidade II</td>
+                </tr>
+                <tr>
+                    <td> > 40</td>
+                    <td>Obesidade III</td>
+                </tr>
+			</table>
+        </div>
+
+    </main>
+    <footer class="rodaPe">
+        <img class="logoFooter" src="/assets/img/logoSite.jpg" alt="logoSiteRodapé">
+        <p class="copyright">&copy; Copyright Tulio R. Azevedo - 2022</p>
+    </footer>
+</body>
+
+</html>
