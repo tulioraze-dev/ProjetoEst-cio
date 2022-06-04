@@ -24,38 +24,46 @@ header {
     text-decoration: none;
     color: white;
 }
-.imc {
-    align-items: center;
+
+main {
+    position: relative;
+    max-width: 1320%;
+    justify-content: space-between;
 }
+
 .imagemAlimentos {
     max-width: 50%;
+    border-radius: 20%;
     float: left;
-    margin-left: 7px;
-    margin-right: 5px;
-    border-radius: 8%;
+    padding-right: 15px;
 }
 
-.textoImc {
+.imagemAlimentos:hover {
+    max-width: 52%;
 }
 
-h1 {
-    font-size: 34px;
-    font-weight: bold;
-    color: #3d4049;
-    display: block;
-    line-height: 110%;
-}
-
-h4 {
-    font-size: 18px;
-    color: #3d4049;
-    display: block;
-}
-
-p {
-    margin: 1em 0px;
-}
-
-.classImc {
+.sobreImc {
+    padding-right: 10px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
     text-align: center;
+
+}
+
+.sobreImc h1 {
+    font-size: 46px;
+}
+
+.sobreImc h3 {
+    font-size: 24px;
+}
+
+.niveis {
+    justify-items: center;
+    align-items: center;
+}
+
+.imagemImc {
+    float: right;
 }
