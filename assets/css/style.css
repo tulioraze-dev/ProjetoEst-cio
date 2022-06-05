@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-/* CABEÇALHO */
+/* CABEÇALHO CSS */
 header {
     text-align: center;
 }
@@ -32,11 +32,18 @@ header {
 
 .opcoesMenu a {
     text-decoration: none;
+    color: black;
+}
+
+.opcoesMenu a:hover {
     color: white;
 }
 
+.opcoesMenu a:active {
+    font-size: 26px ;
+}
 
-/* CONTEÚDO DA PÁGINA */
+/* CONTEÚDO DA PÁGINA CSS */
 main {
     position: relative;
 }
@@ -78,7 +85,11 @@ main {
     border-radius: 10%;
 }
 
-/* FOOTER */
+.imagemImc:hover {
+    width: 300px;
+}
+
+/* FOOTER CSS*/
 .rodaPe {
     text-align: center;
     margin-top: 50px;
@@ -86,13 +97,13 @@ main {
 }
 
 .logoFooter {
-    max-width: 80px;
+    max-width: 65px;
     border-radius: 100%;
 }
 
 .copyright {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 11px;
 	margin: 20px 0 0;
 }
 .rodaPe p {
@@ -125,6 +136,15 @@ form label, form legend {
 	width: 50%;
 }
 
+.sexo{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.opcao{
+    margin-left: 10px;
+}
+
 .gif{
     float: right;
     border-radius: 10%;
@@ -146,8 +166,25 @@ td, th {
 	padding: 8px 15px;
 }
 
-
 .enviar {
-    margin-top: 15px;
-    border-radius: 10%;
+	width:40%;
+    margin-top: 10px;
+	padding: 15px 0;
+	background: white;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    
+}
+
+.enviar:hover {
+    transition: 1s all;
+    font-size: 20px;
+}
+
+.enviar:active {
+    background-color: #4ac119;
 }
