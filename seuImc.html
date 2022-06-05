@@ -31,13 +31,17 @@
 
             <form>
                 <label for="nomeSobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="Digite aqui seu Nome e sobrenome">
+                <input type="text" id="nomeSobrenome" class="input-padrao" placeholder="Digite aqui seu Nome e sobrenome">
 
                 <label for="altura">Altura</label>
                 <input type="number" step="0.01" id="altura" class="input-padrao" required placeholder="0,00 ~ 3,00m">
 
                 <label for="peso">Peso</label>
                 <input type="number" id="peso" onsubmit="validaPeso()" class="input-padrao" required placeholder="0 ~ 350kg">
+
+                <label for="">Data de nascimento</label>
+                <input type="date">
+
                 <div class="sexo">
                     <legend>SEXO: </legend>
                     <label for="masculino"><input type="radio" name="sexo" value="masculino" class="opcao">M</label>
